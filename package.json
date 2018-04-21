@@ -1,4 +1,11 @@
 {
+  "name": "Balou Bot",
+  "version": "1.0.0",
+  "description": "A simple Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "telegraf": "^3.20.0"
   }
