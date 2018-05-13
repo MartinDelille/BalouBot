@@ -10,6 +10,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.hears(/camion/i, (ctx) => ctx.reply('Pouet pouet!'))
 bot.hears(/prout/i, (ctx) => ctx.reply('💩'))
+bot.hears(/il est o[uù]/i, (ctx) => ctx.reply('Dans ton cul'))
 
 console.log("NODE_ENV: " + process.env.NODE_ENV);
 if (process.env.NODE_ENV == 'production') {
