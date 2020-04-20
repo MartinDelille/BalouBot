@@ -1,5 +1,7 @@
 # BalouBot
 
+![Balou](balou.jpg)
+
 ## Install and run
 
 First you need to create a telegram bot: <https://core.telegram.org/bots#3-how-do-i-create-a-bot>
